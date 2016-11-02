@@ -1,0 +1,9 @@
+int n=0,smallest=0;
+	System.out.println("Enter a series of integers");
+	while(n!=999){
+		n=k.nextInt();
+		if(n<smallest)
+			smallest=n;
+	}
+	System.out.println(smallest);
+	
